@@ -1,10 +1,7 @@
 # RaKE
-
-<img src="./example.png" width="600px">
-
-<!-- ![example](https://github.com/weiyifan1023/RaKE/blob/main/example.png) -->
-
 This is the repository for the paper [Assessing Knowledge Editing in Language Models via Relation Perspective](https://arxiv.org/abs/2311.09053)
+
+<img src="./example.png" width="500px">
 
 In real-world scenarios, such as Wikipedia, updating factual knowledge sometimes necessitates the modification of relationships to accurately reflect evolving information.
 Consequently, this paper proposes an editing problem variants (**Relation-based Editing**), and provides a new benchmark named **RaKE**.
