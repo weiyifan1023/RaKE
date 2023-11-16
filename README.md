@@ -25,42 +25,6 @@ We currently support OpenAI's GPT-2 XL (1.5B) and EleutherAI's GPT-J (6B).  We h
   ```
 
 
-## Rank-One Model Editing (ROME)
-
-<!-- We provide a simple interactive notebook demonstrating ROME. -->
-
-<!-- ### Second-Moment Key Statistics
-
-**warning this is probably wrong; fixing later.**
-
-First, key statistics must be collected. The `rome` package contains a `layer_stats` module for computing and caching key statistics. See [rome/layer_stats.py](rome/layer_stats.py) for additional flags, but the basic logic can be executed with the following commands:
-
-GPT-2 XL:
-```bash
-python -m rome.layer_stats --layer_num=17 --model_name=gpt2-xl
-```
-
-GPT-J:
-```bash
-python -m rome.layer_stats --layer_num=10 --model_name=EleutherAI/gpt-j-6B
-```
-
-### ROME Model Rewriting -->
-
-[`notebooks/rome.ipynb`](notebooks/rome.ipynb) demonstrates ROME. The API is simple; one simply has to specify a *requested rewrite* of the following form:
-
-```python
-request = {
-    "prompt": "{} plays the sport of",
-    "subject": "LeBron James",
-    "target_new": {
-        "str": "football"
-    }
-}
-```
-
-Several similar examples are included in the notebook.
-
 ## Baselines
 
 The current supported knowledge editing techniques are as follows:
@@ -140,11 +104,9 @@ python3 -m experiments.summarize --dir_name=X --runs=run_<run_id>
 Our code is based on [ROME](https://github.com/kmeng01/rome) and [EasyEdit](https://github.com/zjunlp/EasyEdit.git).
 
 ## Citation
-
-```bash
 If you use this code for your research, please kindly cite our paper:
 
-​```bibtex
+```bibtex
 @misc{wei2023assessing,
       title={Assessing Knowledge Editing in Language Models via Relation Perspective}, 
       author={Yifan Wei and Xiaoyan Yu and Huanhuan Ma and Fangyu Lei and Yixuan Weng and Ran Song and Kang Liu},
@@ -153,7 +115,6 @@ If you use this code for your research, please kindly cite our paper:
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
-​```
 ```
 
 ## Contact
