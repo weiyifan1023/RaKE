@@ -7,9 +7,10 @@ Consequently, this paper proposes an editing problem variants (**Relation-based 
 
 ![example](https://github.com/weiyifan1023/RaKE/blob/main/example.jpg)
 
-![variants](https://github.com/weiyifan1023/RaKE/blob/main/editing_problem_variants.png)
 
 The experimental results reveal that relation-based editing lags far behind entity-based editing, even though they should ideally be consistent since the original and the altered triples are the same. 
+
+![variants](https://github.com/weiyifan1023/RaKE/blob/main/editing_problem_variants.png)
 
 We currently support OpenAI's GPT-2 XL (1.5B) and EleutherAI's GPT-J (6B).  We hope that our work can provide the NLP community with insights
 
