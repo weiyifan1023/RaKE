@@ -1,14 +1,21 @@
 # RaKE
 This is the repository for the paper [Assessing Knowledge Editing in Language Models via Relation Perspective](https://arxiv.org/abs/2311.09053)
 
-<img src="./example.png" width="500px">
-
 In real-world scenarios, such as Wikipedia, updating factual knowledge sometimes necessitates the modification of relationships to accurately reflect evolving information.
 Consequently, this paper proposes an editing problem variants (**Relation-based Editing**), and provides a new benchmark named **RaKE**.
 
+<p align="center">
+    <img src="./example.png" width="450px">
+</p>
+
 The experimental results reveal that relation-based editing lags far behind entity-based editing, even though they should ideally be consistent since the original and the altered triples are the same. 
 
-![variants](https://github.com/weiyifan1023/RaKE/blob/main/editing_problem_variants.png)
+<p align="center">
+    <img src="./editing_problem_variants.png" width="600px">
+</p>
+
+
+
 
 We currently support OpenAI's GPT-2 XL (1.5B) and EleutherAI's GPT-J (6B).  We hope that our work can provide the NLP community with insights
 
