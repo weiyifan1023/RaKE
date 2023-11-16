@@ -1,6 +1,6 @@
 # RaKE
 
-<img src="./example.png" width="800px">
+<img src="./example.png" width="600px">
 
 <!-- ![example](https://github.com/weiyifan1023/RaKE/blob/main/example.png) -->
 
