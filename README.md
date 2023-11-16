@@ -1,12 +1,11 @@
 # RaKE
 
+![example](https://github.com/weiyifan1023/RaKE/blob/main/example.png)
+
 This is the repository for the paper [Assessing Knowledge Editing in Language Models via Relation Perspective](https://arxiv.org/abs/2311.09053)
 
 In real-world scenarios, such as Wikipedia, updating factual knowledge sometimes necessitates the modification of relationships to accurately reflect evolving information.
 Consequently, this paper proposes an editing problem variants (**Relation-based Editing**), and provides a new benchmark named **RaKE**.
-
-![example](https://github.com/weiyifan1023/RaKE/blob/main/example.png)
-
 
 The experimental results reveal that relation-based editing lags far behind entity-based editing, even though they should ideally be consistent since the original and the altered triples are the same. 
 
@@ -26,7 +25,6 @@ We currently support OpenAI's GPT-2 XL (1.5B) and EleutherAI's GPT-J (6B).  We h
   conda create -n RaKE python=3.9.7
   pip install -r requirements.txt
   ```
-
 
 ## Baselines
 
@@ -66,7 +64,6 @@ python3 -m experiments.evaluate \
     --hparams_fname=EleutherAI_gpt-j-6B.json \
     --perspective=relation
 ```
-
 
 
 Results from each run are stored at `results/<editor_name>/run_<run_id>` in a specific format:
