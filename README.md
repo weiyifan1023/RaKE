@@ -1,6 +1,8 @@
 # RaKE
 
-![example](https://github.com/weiyifan1023/RaKE/blob/main/example.png)
+<img src="./example.png" width="400px">
+
+<!-- ![example](https://github.com/weiyifan1023/RaKE/blob/main/example.png) -->
 
 This is the repository for the paper [Assessing Knowledge Editing in Language Models via Relation Perspective](https://arxiv.org/abs/2311.09053)
 
