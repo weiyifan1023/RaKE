@@ -121,7 +121,16 @@ If you use this code for your research, please kindly cite our paper:
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+
+@article{wei2024does,
+  title={Does Knowledge Localization Hold True? Surprising Differences Between Entity and Relation Perspectives in Language Models},
+  author={Wei, Yifan and Yu, Xiaoyan and Weng, Yixuan and Ma, Huanhuan and Zhang, Yuanzhe and Zhao, Jun and Liu, Kang},
+  journal={arXiv preprint arXiv:2409.00617},
+  year={2024}
+}
 ```
+
+
 
 ## Contact
 
