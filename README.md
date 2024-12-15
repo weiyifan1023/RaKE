@@ -22,7 +22,7 @@ We currently support OpenAI's GPT-2 XL (1.5B) and EleutherAI's GPT-J (6B).  We h
 
 
 ## Requirements
-
+- Here, the pre-trained weights for layers `[4, 5, 6, 7, 8]` in `llama2`. You can download them [here](https://drive.google.com/drive/folders/1IGt7NNV-OxXqIljjr02_k0dDY50Z5N_E?usp=sharing) and download [GPT Series](https://rome.baulab.info/data/).
 - At least one A6000 48G GPU and another GPU with no less than 24G memory.
 
 - Environment
